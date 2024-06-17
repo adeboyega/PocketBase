@@ -1,4 +1,3 @@
-Overview
 This Task App is a full-stack web application designed to help users manage their tasks effectively. It provides CRUD (Create, Read, Update, Delete) operations for tasks, ensuring seamless task management. Built with React, Tailwind CSS, and PocketBaseDB, this app offers a modern and responsive user interface combined with robust backend functionality.
 
 Features

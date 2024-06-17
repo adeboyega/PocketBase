@@ -1,8 +1,27 @@
-# React + Vite
+Overview
+This Task App is a full-stack web application designed to help users manage their tasks effectively. It provides CRUD (Create, Read, Update, Delete) operations for tasks, ensuring seamless task management. Built with React, Tailwind CSS, and PocketBaseDB, this app offers a modern and responsive user interface combined with robust backend functionality.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+User Authentication: Secure user signup, login, and logout functionality.
+Task Management: Create, update, delete tasks with ease.
+Filtering and Sorting: Filter tasks by status, due date, or category.
+Responsive Design: Optimized for both desktop and mobile devices.
+Simple and Intuitive UI: User-friendly interface for smooth task management experience.
+Demo
 
-Currently, two official plugins are available:
+Technologies Used
+Frontend:
+React
+Tailwind CSS
+Axios (or other HTTP client for API requests)
+Backend:
+Node.js
+Express
+PocketBaseDB (briefly describe why you chose this database)
+JSON Web Tokens (JWT) for authentication
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Contact
+Have questions or suggestions? Feel free to reach out:
+
+Email: abayomiaremo0@gmail.com
+LinkedIn:(https://www.linkedin.com/in/abayomi-aremo/)

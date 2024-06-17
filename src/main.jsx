@@ -3,18 +3,23 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
-import { createBrowserRouter, Link, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, Link, Navigate, RouterProvider } from "react-router-dom";
 import Home from './pages/Home.jsx';
 import Login from "./pages/Login"
 import Signup from "./pages/Signup"
 import EditTask from "./pages/EditTask"
 import CreateTask from "./pages/CreateTask"
+import { isUserValid } from './lib/pocketbase.js';
 
 const router = createBrowserRouter([
 	{
 	  path: "/",
-	  element: <Home />,
+	  element: isUserValid ? <Navigate to={"/home"} /> : <Navigate to={"/login"}/>,
 	},
+  {
+    path: "/home",
+    element: <Home />
+  },
   {
     path:"/login",
     element: <Login />,
@@ -24,7 +29,7 @@ const router = createBrowserRouter([
     element: <Signup />,
   },
   {
-    path:"/edittask",
+    path:`/edittask/:id`,
     element: <EditTask />,
   },
   {

@@ -17,7 +17,7 @@ Axios (or other HTTP client for API requests)
 Backend:
 Node.js
 Express
-PocketBaseDB (briefly describe why you chose this database)
+PocketBaseDB (simple and easy to use for small personal projects)
 JSON Web Tokens (JWT) for authentication
 
 Contact
